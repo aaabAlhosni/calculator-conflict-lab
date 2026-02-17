@@ -5,6 +5,15 @@ public class Calculator {
         Scanner scanner = new Scanner(System.in);
 
         //your code will go here
+        // Multiplication and Division
+        System.out.println("Enter first number:");
+        int num1 = scanner.nextInt();
+        System.out.println("Enter second number:");
+        int num2 = scanner.nextInt();
+        int product = num1 * num2;
+        int quotient = num1 / num2;
+        System.out.println("Product: " + product);
+        System.out.println("Quotient: " + quotient);
 
         scanner.close();
     }
