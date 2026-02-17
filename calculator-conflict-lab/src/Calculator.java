@@ -22,7 +22,12 @@ public class Calculator {
         System.out.println("Product: " + product);
         System.out.println("Quotient: " + quotient);
 
+        // Factorial Function
+        int factorial = 1;
+        for (int i = 1; i <= num1; i++) {
+                factorial = factorial * i;
+        }
+            System.out.println("Factorial of " + num1 + " is: " + factorial);
+        }
 
-        scanner.close();
     }
-}
