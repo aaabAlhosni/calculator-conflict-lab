@@ -22,6 +22,9 @@ public class Calculator {
         System.out.println("Product: " + product);
         System.out.println("Quotient: " + quotient);
 
+        // Power Function
+        double powerFunction = Math.pow(num1,num2);
+        System.out.println("Power Function: " + powerFunction);
 
         scanner.close();
     }
