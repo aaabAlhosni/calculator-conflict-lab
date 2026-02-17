@@ -25,9 +25,13 @@ public class Calculator {
         // Factorial Function
         int factorial = 1;
         for (int i = 1; i <= num1; i++) {
-                factorial = factorial * i;
+            factorial = factorial * i;
         }
-            System.out.println("Factorial of " + num1 + " is: " + factorial);
-        }
+        System.out.println("Factorial of " + num1 + " is: " + factorial);
+
+        // Power Function
+        double powerFunction = Math.pow(num1, num2);
+        System.out.println("Power Function: " + powerFunction);
 
     }
+}
